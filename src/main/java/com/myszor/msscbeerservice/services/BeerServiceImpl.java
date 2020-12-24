@@ -5,7 +5,10 @@ import com.myszor.msscbeerservice.repositories.BeerRepository;
 import com.myszor.msscbeerservice.web.controller.NotFoundException;
 import com.myszor.msscbeerservice.web.mappers.BeerMapper;
 import com.myszor.msscbeerservice.web.model.BeerDto;
+import com.myszor.msscbeerservice.web.model.BeerPagedList;
+import com.myszor.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
@@ -16,6 +19,11 @@ public class BeerServiceImpl implements BeerService {
 
     private final BeerRepository beerRepository;
     private final BeerMapper beerMapper;
+
+    @Override
+    public BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest) {
+        return null;
+    }
 
     @Override
     public BeerDto getById(UUID beerId) {
