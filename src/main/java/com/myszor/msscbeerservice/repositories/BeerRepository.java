@@ -1,7 +1,6 @@
 package com.myszor.msscbeerservice.repositories;
 
 import com.myszor.msscbeerservice.domain.Beer;
-import com.myszor.msscbeerservice.web.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
@@ -12,8 +11,8 @@ public interface BeerRepository extends PagingAndSortingRepository<Beer, UUID> {
 
     Page<Beer> findAllByBeerName(String beerName, Pageable pageable);
 
-    Page<Beer> findAllByBeerStyle(BeerStyleEnum beerStyle, Pageable pageable);
+    Page<Beer> findAllByBeerStyle(String beerStyle, Pageable pageable);
 
-    Page<Beer> findAllByBeerNameAndBeerStyle(String beerName, BeerStyleEnum beerStyle, Pageable pageable);
+    Page<Beer> findAllByBeerNameAndBeerStyle(String beerName, String beerStyle, Pageable pageable);
 
 }
