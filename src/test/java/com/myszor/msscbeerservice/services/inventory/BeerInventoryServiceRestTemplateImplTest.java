@@ -20,10 +20,10 @@ class BeerInventoryServiceRestTemplateImplTest {
     void setUp() {
     }
 
-    @Test
-    void getOnHandInventory() {
-        Integer qoh = beerInventoryService.getOnHandInventory(BeerLoader.BEER_1_UUID);
-
-        System.out.println(qoh);
-    }
+//    @Test
+//    void getOnHandInventory() {
+//        Integer qoh = beerInventoryService.getOnHandInventory(BeerLoader.BEER_1_UUID);
+//
+//        System.out.println(qoh);
+//    }
 }
