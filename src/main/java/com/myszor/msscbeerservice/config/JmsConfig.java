@@ -9,6 +9,7 @@ import org.springframework.jms.support.converter.MessageType;
 @Configuration
 public class JmsConfig {
 
+    //Serialize message content to JSON using TextMessage
     @Bean
     public MessageConverter messageConverter() {
 
