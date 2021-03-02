@@ -1,4 +1,4 @@
-package com.myszor.msscbeerservice.services;
+package com.myszor.msscbeerservice.services.brewing;
 
 import com.myszor.msscbeerservice.config.JmsConfig;
 import com.myszor.msscbeerservice.domain.Beer;
