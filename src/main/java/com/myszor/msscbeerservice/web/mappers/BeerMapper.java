@@ -1,7 +1,7 @@
 package com.myszor.msscbeerservice.web.mappers;
 
 import com.myszor.msscbeerservice.domain.Beer;
-import com.myszor.msscbeerservice.web.model.BeerDto;
+import com.myszor.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

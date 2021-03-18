@@ -1,6 +1,6 @@
-package com.myszor.msscbeerservice.events;
+package com.myszor.brewery.model.events;
 
-import com.myszor.msscbeerservice.web.model.BeerDto;
+import com.myszor.brewery.model.BeerDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

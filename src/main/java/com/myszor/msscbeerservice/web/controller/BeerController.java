@@ -1,8 +1,8 @@
 package com.myszor.msscbeerservice.web.controller;
 
 import com.myszor.msscbeerservice.services.BeerService;
-import com.myszor.msscbeerservice.web.model.BeerDto;
-import com.myszor.msscbeerservice.web.model.BeerPagedList;
+import com.myszor.brewery.model.BeerDto;
+import com.myszor.brewery.model.BeerPagedList;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
